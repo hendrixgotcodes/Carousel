@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css/index.css">
+</head>
+<body>
+    
+
+    <div class="slideShow-container">
+
+        <div class="slide-container">
+
+            <div class="mylides fade current" style="z-index: 3;">
+                <div class="numbertext">1/3</div>
+                <img src="./img/beach.jpg">
+                <div class="text">Caption 1</div>
+            </div>
+    
+            <div class="mylides fade" style="z-index: 2;">
+                <div class="numbertext">2/3</div>
+                <img src="./img/landing.jpg">
+                <div class="text">Caption 2</div>
+            </div>
+    
+            <div class="mylides fade" style="z-index: 1;">
+                <div class="numbertext">3/3</div>
+                <img src="./img/womanPainting.jpg">
+                <div class="text">Caption 3</div>
+            </div>
+    
+        </div>
+
+       
+        <a href="" class="links" id="nxt">&#10094;</a>
+        <a href="" class="links" id="prv">&#10095;</a>
+
+    </div>
+
+    <br>
+
+    <div style="text-align:center">
+        <input type="radio" class="dot" onclick="currentSlide(1)"></input>
+        <input type="radio" class="dot" onclick="currentSlide(2)"></input>
+        <input type="radio" class="dot" onclick="currentSlide(3)"></input>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
